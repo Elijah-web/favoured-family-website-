@@ -1,0 +1,202 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend:wght@100..900&family=Oleo+Script:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.family-name{
+    font-size: 3.5rem;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0.5rem;
+    font-family: 'Great vibes';
+    text-shadow: 2px 2px 2px blue;
+}
+nav{
+    background-color: #2f3c7e;
+    opacity: 0.8;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+li a {
+    color: #fbeaeb;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    
+ }
+ li a:hover  ,li a:focus{
+    background-color:black;
+
+    
+ }
+ li a:active{
+     color: cyan;
+ }
+ ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1rem;
+ }
+ .name{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+ }
+
+
+.form{
+    text-align:center;
+    font-size: 2.5rem;
+    font-family: #2e3944;
+}
+.fieldset{
+    text-align: center;
+}
+
+.na,.mail{
+    text-align: left;
+    color: #8aafb6;
+}
+
+.tee,.tex{
+    box-shadow: 2px -2px 2px  rgb(0, 255, 242);
+    border-top: rgb(0, 255, 242);
+    width: 90%;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 15px;
+
+
+}
+.el{
+    font-size:2rem;
+}
+section{
+    background-color: #124e66;
+    font-family: "Lexend", sans-serif;
+
+}
+.textarea{
+    background-color:rgb(54, 50, 50);
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    color: rgb(238, 238, 238);
+    box-shadow: 2px -2px 2px  1px black;
+    width: 80%;
+}
+
+.submit{
+    padding: 1.75rem;
+    margin: 1.5rem;
+    font-weight: "Roboto", sans-serif;
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: chocolate;
+    color:whitesmoke;
+    border-color: #2f3c7e;
+
+}
+.submit:hover{
+    background-color: black;
+    box-shadow: 2px 1px 2px 2px blue;
+}
+
+.ondo, .location{
+    text-align: center;
+    padding: 1.25rem;
+}
+.ondo{
+   font-size: 1.5rem;
+   margin-bottom: 1.5rem;
+}
+.elijah{
+    text-align: center;
+    background-color: black;
+    color: gray;
+    padding: 2rem;
+    font-size: 1.25rem;
+    font-family: monospace;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+    @media screen and (max-width:481px){
+        li a{
+            font-size: 1rem;
+            padding: 0rem;
+        }
+        .family-name{
+            font-size: 2.5rem;
+        }
+        .elijah{
+            font-size: 1rem;
+        }
+}  
+@media screen and (min-width:481px) and (max-width:767px) {
+    .family-name{
+    font-size: 3.5rem;
+    }
+    
+}
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .family-name{
+        font-size: 4rem;
+    }
+        li a{
+            font-size: 2.5rem;
+        }
+        .legend{
+            font-size: 2rem;
+        }
+        .form{
+            font-size: 4rem;
+        }
+    }
+    @media screen and (min-width:1025px) and (max-width:1280px) {
+        .family-name{
+            font-size: 5rem;
+
+        }
+        li a{
+            font-size: 3rem;
+        }
+        .name{
+            font-size: 2.5rem;
+        }
+        .form{
+            font-size: 4rem;
+        }
+        .legend{
+            font-size: 2.5rem;
+        }
+        .location, .ondo{
+            font-size: 2.5rem;
+        }
+        .elijah{
+            font-size: 2rem;
+        }
+        .na, .mail{
+            font-size: 3rem;
+        }
+    }
+    
+
+
+
+   

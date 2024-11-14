@@ -1,0 +1,232 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend:wght@100..900&family=Oleo+Script:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #2f3c7e;
+    opacity: 0.8;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    
+}
+
+li a {
+    color: #fbeaeb;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    
+ }
+ li a:hover  ,li a:focus{
+    background-color:black;
+
+    
+ }
+ li a:active{
+     color: cyan;
+ }
+ ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1rem;
+ }
+
+
+.coordinator{
+    font-size: 3.5rem;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0.5rem;
+    font-family: 'Great vibes';
+    text-shadow: 2px 2px 2px blue;
+}
+.coordinator{
+   font-family: 'Great Vibes';
+
+}
+/* Change the nav from our coordinators */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: rgb(15, 28, 39);
+}
+.happiness,.sarah,.elijah{
+padding: 2rem;    
+}
+.happiness{
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: rgb(12, 10, 10);
+    box-shadow: 2px 1px 2px 2px blue;
+}
+.hap{
+    border-radius: 50%;
+    margin: auto;
+    padding: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.el{
+    text-align: center;
+    color: whitesmoke ;
+    font-family: "Lexend", sans-serif;
+    font-size: 1.5rem;
+    border-bottom: 2px solid whitesmoke;
+}
+.sarah{
+    border: 2px solid black;
+    border-radius: 1rem;
+    background-color: rgb(12, 10, 10);
+    padding: 3rem;
+    margin-top: 3rem;
+    box-shadow: 2px 1px 2px 2px blue;
+
+}
+.sar{
+    border-radius: 50%;
+    padding: 2.5rem;
+}
+.sarsname{
+   text-align: center;
+   color: whitesmoke;
+   font-family: "Lexend", sans-serif;
+    font-size: 1.5rem;
+    border-bottom: 2px solid whitesmoke;
+}
+.elijah1{
+    border: 2px solid black;
+    background-color: rgb(12, 10, 10);
+    padding: 2.5rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    box-shadow: 2px 1px 2px 2px blue;
+
+}
+.eli{
+display: flex;
+justify-content: center;
+align-items: center;
+    padding: 2rem;
+    border-radius: 50%;
+  
+}
+.elisname{
+    text-align: center;
+
+    color: whitesmoke;
+    font-family: "Lexend", sans-serif;
+     font-size: 1.5rem;
+     border-bottom: 2px solid whitesmoke;
+    
+
+}
+span{
+    display: block;
+}
+.elijah{
+    text-align: center;
+    background-color: black;
+    color: gray;
+    padding: 2rem;
+    font-size: 1.25rem;
+    font-family: monospace;
+}
+html{
+    scroll-behavior: smooth;
+}
+@media screen and (max-width:481px){
+    li a{
+        padding: 1rem;
+        font-size:1.25rem;
+    }
+    .coordinator{
+        font-size: 3rem;
+
+    }
+    .sarah, .elijah1{
+        padding: 0.5rem;
+    }
+    .happiness{
+        padding: 0.5rem;
+    }
+    
+   
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+    .coordinator{
+        font-size: 3.5rem;
+    }
+    li a{
+        font-size: 1.5rem;
+    }
+   
+    .sarsname,.elisname,.el{
+        padding: 1rem;
+        margin-bottom: 0.9rem;
+        
+    }
+    .sar,.eli{
+        padding: 3rem;
+    }
+  
+
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .coordinator{
+        font-size: 4rem;
+    }
+    li a {
+        font-size: 2.5rem;
+    }
+    .elijah{
+        font-size: 1.5rem;
+    }
+    
+}
+@media screen and (min-width:1025px) and (max-width:1280px) {
+    li a{
+        font-size: 3rem;
+    }
+    .coordinator{
+        font-size: 6rem;
+    }
+    
+    .sar,.eli{
+        padding: 2.5rem;
+    }
+    .sarah, .elijah1, .happiness{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        margin: 1.5rem;
+    }
+    main{
+        display: flex;
+        flex-direction: row;
+        padding: 2rem;
+        flex-wrap: wrap;
+    }
+   .elijah{
+    font-size: 2rem;
+
+    }
+   
+    
+}

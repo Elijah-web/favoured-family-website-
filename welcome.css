@@ -1,0 +1,320 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lexend:wght@100..900&family=Oleo+Script:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+    
+  
+
+
+.bgcolor{
+    background-image: url(img2/DSC_8069\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-bottom: 1px solid whitesmoke;
+    
+}
+.family-name{
+    font-size: 3.5rem;
+    text-align: center;
+    white-space: nowrap;
+    padding: 0.5rem;
+    font-family: 'Great vibes';
+    text-shadow: 2px 2px 2px blue;
+
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 1rem;
+    
+
+ }
+ nav{
+    background-color: #2f3c7e;
+    opacity: 0.8;
+
+
+    
+ }
+ li a {
+    color: #fbeaeb;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    white-space: nowrap;
+    
+ }
+ li a:hover  ,li a:focus{
+    background-color:black;
+
+    
+ }
+ li a:active{
+     color: cyan;
+ }
+
+/*  finish  llink styling by adding visited pseduo-class */
+.welcome{
+    text-align: center;
+    font-family: 'Great vibes';
+    font-size: 4.5rem;
+    padding: 0.5rem;
+    text-shadow: 1px 0 2px whitesmoke;
+
+}
+
+.to{
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px whitesmoke;
+ }
+ .men{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 5rem;
+    white-space: wrap;
+    text-shadow: 2px 2px 2px whitesmoke;
+    opacity: 0.9;
+    padding: 0.5rem;
+    
+ } 
+ .opacity{
+    background-color: #7e762f33;
+    padding: 0.5rem ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+
+ }
+ .book{
+    text-align: center;
+ }
+ .favour{
+    background-color: crimson;
+ }
+.heading{
+    text-align: center;
+ }
+ 
+
+ .section2{
+    color: grey;
+    background-color:white;
+    padding: 0.5rem;
+    line-height: 1.5rem;
+    word-spacing: 0.20rem;
+    font-weight: 800;
+    font-family: monospace;
+    font-size: 1.5rem;
+    margin: 1rem;
+
+ }
+ .futa{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2.5rem;
+    color: rgb(210, 51, 30);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+ } .table{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+
+  
+ }
+
+
+
+table, th, tr, td, caption{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    padding:1rem;
+    font-family: "Roboto", sans-serif;
+      
+}
+.pmch{
+    white-space: wrap;
+}
+.move{
+    margin: auto;
+    width: 100%;
+}
+tbody{
+    background-image: linear-gradient(to right, #ffcc00,#ff6666);
+    
+ 
+}
+thead{
+   background-color: #101820;
+   color:yellow;
+}
+.mfmcf{
+    color: red;
+}
+.elijah{
+    text-align: center;
+    background-color: black;
+    color: gray;
+    padding: 2rem;
+    font-size: 1.25rem;
+    font-family: monospace;
+}
+.address{
+    font-size: 1.5rem;
+    text-align: center;
+    white-space: wrap;
+}
+.navbar{
+    top:0;
+    position: sticky;
+    z-index: 1;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+@media screen and (max-width:481px) {
+.family-name{
+    font-size: 2.5rem;
+    
+}
+.men{
+    font-size: 3rem;
+}
+nav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: sticky;
+   top: 0;
+}
+li a{
+    font-size:1rem;
+    padding: 0.55rem;
+}
+.elijah{
+    font-size: 1rem;
+}
+}
+@media screen and (min-width:481px) and (max-width:767px) {
+    .family-name{
+        font-size: 3rem;
+    }
+    li a{
+        padding: 0.9rem;
+        font-size: 1rem;
+    }
+    
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .men{
+        font-size: 6rem;
+    }
+      .family-name{
+        font-size: 5rem;
+      }
+      li a{
+         font-size: 2rem;
+      }
+      .welcome{
+        font-size: 4.75rem;
+      }
+      
+      .move{
+        font-size: 2rem;
+      }
+      .elijah{
+        font-size: 1.5rem;
+      }
+      
+      .ondo{
+        font-size: 2rem;
+      }
+      .futa{
+        font-size: 4rem;
+      }
+      .address{
+        font-size: 2.5rem;
+      }
+      .opacity{
+        font-size: 1.5rem;
+      }
+      .section2{
+        font-size: 2rem;
+        line-height: 2rem;
+      }
+      .to{
+        font-size: 3.25rem;
+      }
+      .li a{
+        font-size: 2.5rem;
+      }
+}
+@media screen and (min-width:1025px) and (max-width:1280px) {
+    .family-name{
+        font-size: 6rem;
+    }
+    li a{
+        font-size: 3rem;
+    }
+    .move{
+        font-size: 2rem;
+    }
+    .futa{
+        font-size: 4rem;
+    }
+    .address{
+        font-size: 2rem;
+    }
+.section2{
+    line-height: 2rem;
+    font-size: 2rem;
+}
+.opacity{
+    font-size: 1.5rem;
+}
+.welcome{
+    font-size: 5.5rem;
+}
+.men{
+    font-size: 6.5rem;
+}
+.to{
+    font-size: 4rem;
+}
+.elijah{
+    font-size: 2rem;
+}
+}
+
+
+
+
+
+
